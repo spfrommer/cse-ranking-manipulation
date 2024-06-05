@@ -12,7 +12,7 @@ This repository is based on the [minimal implementation](https://github.com/drea
 
 
 # Usage
-1. Install dependencies
+1. Install dependencies (inside a virtualenv)
 ```
 pip install e .
 ```
