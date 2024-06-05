@@ -1,7 +1,7 @@
 # Overview
 This repository reproduces the results for the paper "Ranking Manipulation for Conversational Search Engines."
 
-For convenience, we also release the pickled output (`out`), raw-text output (`out_text`), dataset (`dataset`), and plots (`plots`). **Note that the repository size is thus rather large (~100Mb).** Simply unzip the relevant `.zip` files after cloning.
+For convenience, we also release the pickled output (`out`), raw-text output (`out_text`), dataset (`dataset`), and plots (`plots`). **Note that the repository size is thus rather large (~100Mb as zip files, ~700Mb after unzipping).** Simply unzip the relevant `.zip` files after cloning.
 
 For the data collection pipeline, please see [this companion GitHub repo](https://github.com/spfrommer/ranking_manipulation_data_pipeline).
 
