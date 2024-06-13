@@ -1,17 +1,17 @@
 # Ranking Manipulation for Conversational Search Engines
 
-This repository reproduces the results for the paper [***Ranking Manipulation for Conversational Search Engines***](https://arxiv.org/abs/2406.03589), from Samuel Pfrommer, Yatong Bai, Tanmay Gautam, and Somayeh Sojoudi.
+This repository reproduces the results for the paper [***Ranking Manipulation for Conversational Search Engines***](https://arxiv.org/abs/2406.03589), by Samuel Pfrommer, Yatong Bai, Tanmay Gautam, and Somayeh Sojoudi.
 
-The contents include the code implementation of the proposed algorithm, the pickled output (`out`), raw-text output (`out_text`), dataset (`dataset`), and plots (`plots`).
+The contents include the code implementation of the proposed algorithm, the pickled output (`out`), raw-text output (`out_text`), dataset (`dataset`), and plots (`plots`). Unzip the respective files to recover the directories.
 
 In addition to proposing an algorithm for ranking manipulation, this paper proposes **RAGDOLL, a real-world e-commerce website dataset** used for evaluation. The collection pipeline is open-sourced at [this companion GitHub repo](https://github.com/spfrommer/ranking_manipulation_data_pipeline).
 
 
 ## Description
 
-<center>
-    <img src="main_figure.png" alt="Reranking Results" title="Results" width="520"/>
-</center>
+<p align="center">
+    <img src="main_figure.png" alt="Reranking Results" title="Results" width="750"/>
+</p>
 
 Major search engine providers are rapidly incorporating Large Language Model (LLM)-generated content in response to user queries. These conversational search engines operate by loading retrieved website text into the LLM context for summarization and interpretation.
 
@@ -19,7 +19,7 @@ Recent research demonstrates that LLMs are highly vulnerable to jailbreaking and
 
 To this end, we introduce a focused dataset of real-world consumer product websites and formalize conversational search ranking as an adversarial problem. Experimentally, we analyze conversational search rankings in the absence of adversarial injections and show that different LLMs vary significantly in prioritizing product name, document content, and context position.
 
-We then present a tree-of-attacks-based jailbreaking technique which reliably promotes low-ranked products. Importantly, these attacks transfer effectively to state-of-the-art conversational search engines such as this http URL.
+We then present a tree-of-attacks-based jailbreaking technique which reliably promotes low-ranked products. Importantly, these attacks transfer effectively to closed-source, online-enabled RAG implementations such as the Sonar Large Online model by perplexity.ai.
 
 
 ## Usage
