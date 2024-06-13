@@ -174,7 +174,7 @@ _The questions in this section are intended to provide dataset consumers with th
 
 _The various steps of preprocessing are all included in the dataset. Reproducing from above:_
 
-_Each instance consists of a) raw HTML (`pages`), b) website textual content (`content`), c) LLM-extracted product-relevant subset of content (  `content_extract`), d) the extracted subset truncated to 1000 characters (`content_truncate`), and e) LLM-rewritten content combining product names with various documents (`content_rewrite`)._
+_Each instance consists of a) raw HTML (`pages`), b) website textual content (`content`), c) LLM-extracted product-relevant subset of content (  `content_extract`), d) the extracted subset truncated to 1000 characters (`content_truncate`), and e) LLM-rewritten content combining product names with various documents (`content_rewrite`). Specifically, the upper-level directory in `content_rewrite` specifies the product while the lower-level directory specifies the source document, indexing into `products.csv`._
 
 ### Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
 
