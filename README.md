@@ -21,6 +21,9 @@ To this end, we introduce a focused dataset of real-world consumer product websi
 
 We then present a tree-of-attacks-based jailbreaking technique which reliably promotes low-ranked products. Importantly, these attacks transfer effectively to closed-source, online-enabled RAG implementations such as the Sonar Large Online model by perplexity.ai.
 
+## Dataset card
+
+Please find a more detailed description of our dataset in the associated [dataset card](https://github.com/spfrommer/cse-ranking-manipulation/blob/main/datasheet.md).
 
 ## Usage
 
