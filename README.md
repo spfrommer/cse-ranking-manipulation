@@ -28,7 +28,7 @@ We then present a tree-of-attacks-based jailbreaking technique which reliably pr
 Note that since a copy of the dataset and experimental results are included in this repo, **the repository size is thus rather large (~100Mb as zip files, ~700Mb after unzipping).**
 2. Install dependencies (inside a virtualenv)
 ```
-pip install e .
+pip install -e .
 ```
 3. Configure any required API keys
 ```
@@ -37,7 +37,7 @@ TOGETHER_API_KEY='...'
 PERPLEXITY_API_KEY='...'
 ```
 4. (Optional) set up web server for `perplexity.ai` attack (commented out in `run.sh`). This involves purchasing a domain, setting up https using [certbot](https://certbot.eff.org/), selecting a password for `app.py` and `app_interface.py`, and running `run_server.sh` in `helpers` on the web server.
-5. Reproduce results
+5. Reproduce results (if attacking `perplexity.ai`, uncomment the relevant lines):
 ```
 bash scripts/run.sh
 ```
