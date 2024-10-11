@@ -2,11 +2,13 @@
 
 This repository reproduces the results for the paper [***Ranking Manipulation for Conversational Search Engines***](https://arxiv.org/abs/2406.03589), by Samuel Pfrommer, Yatong Bai, Tanmay Gautam, and Somayeh Sojoudi.
 
-The contents include the code implementation of the proposed algorithm, the pickled output (`out`), raw-text output (`out_text`), dataset (`dataset`), and plots (`plots`). Unzip the respective files to recover the directories.
+The contents include the code implementation of the proposed ranking manipulation algorithm, the pickled output (`out`), raw-text output (`out_text`), dataset (`dataset`), and plots (`plots`). Unzip the respective files to recover the directories.
 
-In addition to proposing an algorithm for ranking manipulation, this paper proposes **RAGDOLL, a real-world e-commerce website dataset** used for evaluation, which is available on [Huggingface](https://huggingface.co/datasets/Bai-YT/RAGDOLL).
+We additionally propose **RAGDOLL, a real-world e-commerce website dataset** used for evaluation, which is available on [Huggingface](https://huggingface.co/datasets/Bai-YT/RAGDOLL).
 
 The dataset collection pipeline is open-sourced at [this companion GitHub repo](https://github.com/spfrommer/ranking_manipulation_data_pipeline).
+
+- 09/2024: 🎉 Our paper has been accepted to *The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)*.
 
 
 ## Description
