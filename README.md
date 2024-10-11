@@ -4,7 +4,9 @@ This repository reproduces the results for the paper [***Ranking Manipulation fo
 
 The contents include the code implementation of the proposed algorithm, the pickled output (`out`), raw-text output (`out_text`), dataset (`dataset`), and plots (`plots`). Unzip the respective files to recover the directories.
 
-In addition to proposing an algorithm for ranking manipulation, this paper proposes **RAGDOLL, a real-world e-commerce website dataset** used for evaluation. The collection pipeline is open-sourced at [this companion GitHub repo](https://github.com/spfrommer/ranking_manipulation_data_pipeline).
+In addition to proposing an algorithm for ranking manipulation, this paper proposes **RAGDOLL, a real-world e-commerce website dataset** used for evaluation, which is available on [Huggingface](https://huggingface.co/datasets/Bai-YT/RAGDOLL).
+
+The dataset collection pipeline is open-sourced at [this companion GitHub repo](https://github.com/spfrommer/ranking_manipulation_data_pipeline).
 
 
 ## Description
